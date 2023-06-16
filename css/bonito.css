@@ -1,0 +1,109 @@
+.centro{
+    margin-top: 250px;
+    width: auto;
+    height: auto;
+    margin-inline: 500px;
+    text-align: center;
+    border: #75372d solid 4px;
+    background-color: #eeeac1;
+    padding-top:25px;
+    padding-bottom:25px;
+    border-radius:10%;
+}
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/-875398167.jpg);
+    font-size: larger;
+    text-align: center;
+}
+header a:link, a:visited {
+    white-space: nowrap;
+    background-color: #986c4a;
+    color: #eeeac1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: x-large;
+    padding-top: 40px;
+    
+  }
+  
+  header a:hover{
+    text-decoration:  underline white;
+    text-decoration-thickness: 5px;
+    font-size: xx-large;
+    color: white;
+  }
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: inherit;
+    height: 100px;
+    padding: 11px;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: row;
+    color: #eeeac1;
+    font-weight: bold;
+    background-color: #986c4a;
+    text-align: center;
+    justify-content: center;
+    z-index: 3;
+    
+}
+#teste{
+    width: auto;
+    height: 110px;
+    object-fit: fill;
+  }
+div.card{
+    margin-inline: 10px;
+    width: 300px ;
+margin-top: 20px;
+border-radius: 30px;   
+position: relative; 
+border:8px solid #75372d;
+z-index: 1;
+background-color: #eeeac1;
+
+}
+
+img{
+    border-radius: 20px;
+}
+#row{
+    align-content: center;
+    width: auto;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+}
+#cachorro:not(:first-child){
+    margin-left: 60px;
+}
+input{
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #75372d;
+    border-radius: 4px;
+  }
+
+  input[type=button] {
+    background-color: #75372d;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  h2,h3{
+    text-align: center;
+  }

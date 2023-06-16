@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/bonito.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+
+<style>
+body{
+    background-color:#eeeac1
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #75372d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+</style>
+</head>
+<body>
+  
+  <div class="centro">
+  <form method="post">
+      <h1></h1>
+     
+        <h2>Informações Pessoais:</h2><br>
+         <label>Nome Completo:*</label>
+         <input type="text" id="nome" name="nome" required><br>
+         <label>CPF:*</label>
+         <input type="number" id="cpf" name="cpf" required maxlength="11"><br>
+         <label>Data de nascimento:*</label>
+         <input type="date" id="data" name="data" required><br><br>
+         <h2>Endereço:</h2><br>
+         <label>CEP:*</label>
+         <input type="number" id="CEP" name="CEP" required maxlength="8"><br>
+         <label>Cidade:*</label>
+         <input type="text" id="cid" name="cid" required><br>
+         <label>Estado (UF):*</label>
+         <input type="text" id="uf" name="uf" required><br>
+         <label>Número:*</label> 
+         <input type="number" id="num" name="num" required><br>
+         <label>Logradouro:*</label>
+         <input type="text" id="log" name="log" required><br>
+         <label>Complemento:</label>
+         <input type="text" id="com" name="com"><br>
+         <label>Bairro:*</label>
+         <input type="text" id="bar" name="bar" required><br><BR>
+         <label>Telefone para contato:*</label>
+         <input type="tel" id="tel" name="tel" required><br>
+         <label>Poderia nos informar um telefone reserva?</label>
+         <input type="tel" id="tel2" name="tel2"><br>
+         <label>Email para contato:*</label>
+         <input type="email" id="email" name="email" required><br><br>
+    <br><br>
+    <input type="button" value="Enviar" onclick="alert('Obrigado por escolher cuidar desse bichinho, logo você receberá um email para confirmarmos tudo!!!')">
+  </form>
+    </div>
+
+  
+
+
+
+
+
+
+</body> 
+ </html>
